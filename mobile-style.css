@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10vh 5vw;
+    font-family: 'League Spartan' sans-serif;
+    font-weight: 700;
+    background-color: rgb(202, 200, 195);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parent {
+    width: 375px;
+    padding: 5vh 5vw;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top {
+    width: 60vw;
+    height: 45vh;
+    position: center;
+    margin-top: -5vh;
+    margin-right: -20vw;
+    background-image: url(./Images/bg-pattern-top-mobile.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+.sons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.daughters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.first {
+    margin-top: -35vh;
+    margin-left: 8vw;
+}
+.second {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+h1 {
+    color: hsl(300, 43%, 22%);
+}
+h4 {
+    color: hsl(300, 24%, 96%);
+}
+.about {
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    text-align: center;
+    margin-left: -5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.phase1 {
+    width: 30vw;
+    padding: 2vh 1vw;
+    border-radius: 3px;
+    margin-bottom: 2vh;
+    background-color:hsl(300, 24%, 96%);
+}
+.phase2 {
+    width: 30vw;
+    padding: 2vh 1vw;
+    border-radius: 3px;
+    background-color:hsl(300, 24%, 96%);
+    margin-bottom: 2vh;
+}
+.phase3 {
+    width: 30vw;
+    padding: 2vh 1vw;
+    border-radius: 3px;
+    background-color:hsl(300, 24%, 96%);
+    margin-bottom: 5vh;
+}
+.star {
+    width: 12px;
+    margin: 0 0.2vw;
+}
+.star2 {
+    width: 12px;
+    margin: 0 0.33vw;
+}
+.star3 {
+    width: 12px;
+    margin: 0 0.35vw;
+}
+.stars {
+    margin-left: 6.8vw;
+}
+.stars1 {
+    margin-left: 7.2vw;
+}
+.rate {
+    color: hsl(300, 43%, 22%);
+    margin-left: 50px;
+    font-weight: 700;
+}
+.rate2 {
+    color: hsl(300, 43%, 22%);
+    margin-left: 37px;
+    font-weight: 700;
+}
+.icon {
+    width: 4vw;
+    height: 8vh;
+    border-radius: 100%;
+    margin-left: -11vw;
+    margin-bottom: 3vh;
+}
+.first-daughter {
+    width: 30vw;
+    padding: 5vh 2vw;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.second-daughter {
+    width: 30vw;
+    padding: 5vh 2vw;
+    margin-bottom: 2vh;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+}
+.third-daughter {
+    width: 30vw;
+    padding: 5vh 2vw;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+}
+.parag {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.content {
+    color: hsl(300, 24%, 96%);
+    font-weight: 400;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sub-header {
+    margin-left: -5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom {
+    width: 35vw;
+    height: 120vh;
+    margin-top: -90vh;
+    background-image: url(./Images/bg-pattern-bottom-mobile.svg);
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
